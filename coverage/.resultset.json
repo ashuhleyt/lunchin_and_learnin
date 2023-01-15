@@ -1,13 +1,12 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/spec/poros/recipe_spec.rb": {
+      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/spec/poros/image_spec.rb": {
         "lines": [
           1,
           null,
           1,
           1,
-          1,
           null,
           1,
           null,
@@ -16,9 +15,20 @@
           null,
           null,
           null,
-          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           null,
           1,
+          null,
           1,
           1,
           1,
@@ -289,7 +299,7 @@
           null,
           null,
           1,
-          2,
+          1,
           null,
           null,
           null,
@@ -311,278 +321,20 @@
           null
         ]
       },
-      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/poros/recipe.rb": {
+      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/poros/image.rb": {
         "lines": [
           1,
           1,
           null,
-          1,
-          21,
-          21,
-          21,
-          21,
-          null,
-          null
-        ]
-      },
-      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/spec/requests/api/v1/recipes_request_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20,
-          null,
-          20,
-          20,
-          20,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/spec/services/edamam_service_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          20,
-          20,
-          20,
-          20,
-          20,
-          20,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/services/edamam_service.rb": {
-        "lines": [
-          1,
-          1,
-          2,
-          2,
-          2,
-          2,
-          null,
-          null,
-          null,
-          1,
-          2,
-          null,
-          2,
-          null,
-          null
-        ]
-      },
-      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/spec/services/unsplash_service_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          10,
-          10,
-          10,
-          10,
-          10,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/services/unsplash_service.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/spec/services/video_service_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/services/video_service.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/controllers/api/v1/recipes_controller.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/facades/country_facade.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          250,
-          null,
-          null,
           null,
           1,
           1,
-          null,
-          null,
-          1,
-          0,
-          null,
-          null
-        ]
-      },
-      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/services/country_service.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/facades/recipe_facade.rb": {
-        "lines": [
-          1,
-          1,
           1,
-          1,
-          1,
-          20,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/serializers/recipe_serializer.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          null,
-          20,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
           null,
           null
         ]
       }
     },
-    "timestamp": 1673824711
+    "timestamp": 1673825821
   }
 }
