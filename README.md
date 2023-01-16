@@ -24,5 +24,9 @@ This app was designed as a way for a user to get new recipes, and acquire inform
 ![rubyonrails](https://img.shields.io/badge/rubyonrails-5.2.8.1-000000?style=for-the-badge&logo=rubyonrails&logoColor=red)
 <br>
 ![ruby](https://img.shields.io/badge/ruby-2.7.4-000000?style=for-the-badge&logo=ruby&logoColor=red)
+<br>
+![json](https://img.shields.io/badge/json-000000?style=for-the-badge&logo=json&logoColor=white)
+<br>
+![postgresql](https://img.shields.io/badge/postgresql-000000?style=for-the-badge&logo=postgresql&logoColor=light-blue)
 
 
