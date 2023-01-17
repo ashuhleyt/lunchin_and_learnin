@@ -9,6 +9,7 @@
 <br>
 This app was designed as a way for a user to get new recipes, and acquire information about the country where the recipe came from. 
 <br>
+<br>
 
 :fish_cake: [Learning Goals](#learning-goals)
 <br>
