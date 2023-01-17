@@ -14,6 +14,7 @@ RSpec.describe "Favorite Recipes" do
       
       post '/api/v1/favorites', headers: headers, params: JSON.generate(params)
       expect(response).to be_successful
+      expect(response).to have_http_status(200)
   end
 
   it 'sends an invalid api key error message if api key is invalid' do 
@@ -30,5 +31,6 @@ RSpec.describe "Favorite Recipes" do
     post '/api/v1/favorites', headers: headers, params: JSON.generate(params)
 
     expect(response).to_not be_successful
+    expect(response).to have_http_status(400)
   end
 end

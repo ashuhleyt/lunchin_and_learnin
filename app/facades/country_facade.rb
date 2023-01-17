@@ -3,6 +3,7 @@ class CountryFacade
     result = CountryService.get_countries
     result.map do |country|
       country[:name][:common] 
+      require 'pry'; binding.pry
     end
   end
 
