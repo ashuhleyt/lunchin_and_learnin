@@ -4,7 +4,6 @@ class AirPollution
               :readable 
 
   def initialize(data)
-    # require 'pry'; binding.pry
     @aqi = data[:list][0][:main][:aqi]
     @datetime = data[:list][0][:dt]
     @readable = translator(@aqi)
