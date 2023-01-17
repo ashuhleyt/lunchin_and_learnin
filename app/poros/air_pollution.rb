@@ -1,9 +1,11 @@
 class AirPollution 
-  attr_reader :aqi, 
+  attr_reader :id,
+              :aqi, 
               :datetime, 
               :readable 
 
   def initialize(data)
+    @id = "null"
     @aqi = data[:list][0][:main][:aqi]
     @datetime = data[:list][0][:dt]
     @readable = translator(@aqi)

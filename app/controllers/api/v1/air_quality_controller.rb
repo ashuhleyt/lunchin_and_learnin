@@ -1,9 +1,9 @@
 class Api::V1::AirQualityController < ApplicationController 
   def index 
-    country = params[:country] ||= CountryFacade.random
+    country = params[:country]
     if CountryFacade.valid_country?(country)
       # require 'pry'; binding.pry
-      render json: AirPollutionSerializer.new(AirPollutionFacade.aqi_for_country(params[:country]))
+      render json: AirPollutionSerializer.new(AirPollutionFacade.aqi_for_country(country))
     end
   end
 end
