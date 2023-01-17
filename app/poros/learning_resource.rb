@@ -1,5 +1,6 @@
 class LearningResource
-  attr_reader :image, :video 
+  attr_reader :image, 
+              :video 
 
   def initialize(image, video)
     @image = image

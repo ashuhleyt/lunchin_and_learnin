@@ -3,7 +3,7 @@ class Api::V1::UsersController < ApplicationController
     user = User.new(user_params)
     if user.save 
       user.api_key = SecureRandom.hex(26)
-      render json: UserSerializer.new(user)
+      render json: UserSerializer.new(user), status: 201
     else 
       render json: ErrorSerializer.taken_email, status: 400 
     end

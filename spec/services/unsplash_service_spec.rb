@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe UnsplashService do 
-  it 'returns images for a given country' do 
+  it 'returns images for a given country', :vcr do 
     country = 'Spain'
     images = UnsplashService.retrieve_images(country)
 

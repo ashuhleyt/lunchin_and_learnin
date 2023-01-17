@@ -1,5 +1,6 @@
 class LearningResourceSerializer
   def self.serialize(resources, country)
+
     {
     "data": {
       "id": "null",
@@ -12,12 +13,13 @@ class LearningResourceSerializer
         },
         "images": resources.image.map do |image|
           {
-          "alt_tag": image.alttag,
-          "url": image.url
+            "alt_tag": image.alttag,
+            "url": image.url
+
           }
-                  end 
-        }
+        end 
       }
     }
+  }
   end 
 end
