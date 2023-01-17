@@ -46,8 +46,8 @@ This app was designed as a way for a user to get new recipes, and acquire inform
 ### Configuration
 `bundle install`<br>
 `bundle exec figaro install` <br>
-Running the above command will generate an application.yml folder in config. <br>
-This is where you will store your [API Keys](#api-keys). <br>
+<i>Running the above command will generate an application.yml folder in config. <br>
+  This is where you will store your [API Keys](#api-keys). </i><br>
 `rails db:create` <br>
 `rails db:migrate` <br>
 
