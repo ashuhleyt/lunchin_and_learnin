@@ -5,7 +5,7 @@ class Api::V1::FavoritesController < ApplicationController
       user.favorites.create(favorite_params)
       render json: FavoriteRecipeSerializer.add
     else 
-      render json: ErrorSerializer.invalid_api_key
+      render json: ErrorSerializer.invalid_api_key, status: 400
     end
   end
 

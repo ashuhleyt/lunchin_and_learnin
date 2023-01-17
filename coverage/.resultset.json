@@ -448,12 +448,12 @@
         "lines": [
           1,
           1,
-          1,
-          1,
+          2,
+          2,
           1,
           1,
           null,
-          0,
+          1,
           null,
           null,
           null,
@@ -478,6 +478,25 @@
           1,
           null,
           1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/serializers/error_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
           null,
           null,
           null
@@ -557,25 +576,6 @@
           null
         ]
       },
-      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/serializers/error_serializer.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          0,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
       "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/controllers/api/v1/learning_resources_controller.rb": {
         "lines": [
           1,
@@ -617,6 +617,6 @@
         ]
       }
     },
-    "timestamp": 1673915263
+    "timestamp": 1673916470
   }
 }

@@ -13,5 +13,22 @@ RSpec.describe "Favorite Recipes" do
       headers = { 'CONTENT_TYPE' => 'application/json' }
       
       post '/api/v1/favorites', headers: headers, params: JSON.generate(params)
+      expect(response).to be_successful
+  end
+
+  it 'sends an invalid api key error message if api key is invalid' do 
+    user = User.create!(name: "Smash", email: "bingbong@gmail.com", api_key: "123456789123456789")
+    params = {
+      api_key: "69696969", 
+      country: "Spain",
+      recipe_link: "https://www.SpanishRecipes.com",
+      recipe_title: "Your Moms Paella Could Never"
+    }
+    
+    headers = { 'CONTENT_TYPE' => 'application/json' }
+    
+    post '/api/v1/favorites', headers: headers, params: JSON.generate(params)
+
+    expect(response).to_not be_successful
   end
 end
