@@ -289,21 +289,31 @@
           null
         ]
       },
+      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/models/favorite.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
       "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/models/user.rb": {
         "lines": [
           1,
           1,
           null,
           1,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/models/application_record.rb": {
-        "lines": [
           1,
           1,
           null
@@ -434,6 +444,45 @@
           null
         ]
       },
+      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/controllers/api/v1/favorites_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/serializers/favorite_recipe_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/controllers/api/v1/recipes_controller.rb": {
         "lines": [
           1,
@@ -444,12 +493,6 @@
           1,
           null,
           null,
-          null
-        ]
-      },
-      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
           null
         ]
       },
@@ -523,6 +566,13 @@
           null,
           null,
           null,
+          null,
+          1,
+          null,
+          0,
+          null,
+          null,
+          null,
           null
         ]
       },
@@ -567,6 +617,6 @@
         ]
       }
     },
-    "timestamp": 1673906339
+    "timestamp": 1673915263
   }
 }
