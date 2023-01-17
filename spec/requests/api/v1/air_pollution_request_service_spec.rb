@@ -5,7 +5,7 @@ describe 'Air Quality API' do
     get '/api/v1/air_quality?country=India'
     
     aqi = JSON.parse(response.body, symbolize_names: true)
+
     expect(response).to be_successful
-    
   end
 end

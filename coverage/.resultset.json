@@ -195,7 +195,7 @@
           null,
           null,
           1,
-          2,
+          1,
           null,
           null,
           null,
@@ -220,92 +220,37 @@
           null
         ]
       },
-      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/controllers/api/v1/air_quality_controller.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          0,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/facades/country_facade.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          250,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          0,
-          null,
-          null,
-          1,
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          null
-        ]
-      },
-      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/services/country_service.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/serializers/air_pollution_serializer.rb": {
+      "/Users/ashleyturner/turing/3mod/lunch_and_learn/lunchin_and_learnin/app/poros/air_pollution.rb": {
         "lines": [
           1,
           1,
           null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
           0,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
           null,
           null,
           null
         ]
       }
     },
-    "timestamp": 1673974452
+    "timestamp": 1673976663
   }
 }
