@@ -32,6 +32,6 @@ RSpec.describe AirPollution do
   expect(aqi).to be_a(AirPollution)
   expect(aqi.aqi).to eq(5)
   expect(aqi.datetime).to be_an(Integer)
-  expect(aqi.readable).to be("Very Poor")
+  expect(aqi.readable).to eq("Very Poor")
   end
 end

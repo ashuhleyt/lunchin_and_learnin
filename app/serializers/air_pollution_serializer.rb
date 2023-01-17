@@ -5,9 +5,9 @@ class AirPollutionSerializer
         "id": "null",
         "type": "air_quality",
         "attributes": {
-            "aqi": airquality.aqi,
-            "datetime": airquality.datetime,
-            "readable_aqi": airquality.readable
+            "aqi": airpollution.aqi,
+            "datetime": airpollution.datetime,
+            "readable_aqi": airpollution.readable
                 }
           }
     }

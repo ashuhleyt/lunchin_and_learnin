@@ -11,7 +11,7 @@ class AirPollution
   end
 
   def translator(aqi)
-    if aqi ==1 
+    if aqi == 1 
       return "Good"
     elsif aqi == 2 
       return "Meh"
