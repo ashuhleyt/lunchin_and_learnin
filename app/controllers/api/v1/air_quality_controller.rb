@@ -3,7 +3,7 @@ class Api::V1::AirQualityController < ApplicationController
     # country = params[:country] ||= CountryFacade.random
     # if CountryFacade.valid_country?(country)
 
-    #   render json:
+    #   render json: 
     # end
   end
 end

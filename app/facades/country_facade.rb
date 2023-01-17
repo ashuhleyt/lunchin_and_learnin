@@ -14,4 +14,8 @@ class CountryFacade
   def self.random
     names.sample
   end
+
+  def self.search_country_lat_long(search_country)
+    result = CountryService.get_countries
+  end
 end
