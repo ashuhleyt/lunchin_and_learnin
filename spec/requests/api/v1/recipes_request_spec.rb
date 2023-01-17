@@ -2,10 +2,10 @@ require 'rails_helper'
 
 RSpec.describe 'Recipes API' do 
   it 'sends list of recipes for a given country' do 
-    get '/api/v1/recipes?country=spain'
+    country = 'Spain'
+    get "/api/v1/recipes?country=#{country}"
 
     recipes = JSON.parse(response.body, symbolize_names: true)
-    
     expect(response).to be_successful
     expect(recipes[:data]).to be_an(Array)
     recipes[:data].each do |recipe|

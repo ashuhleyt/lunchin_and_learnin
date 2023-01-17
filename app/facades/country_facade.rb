@@ -7,7 +7,7 @@ class CountryFacade
   end
 
   def self.valid_country?(country)
-    names.include?(country.titleize)
+    names.include?(country)
   end
 
   def self.random
