@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe RecipeFacade do 
   describe 'class methods' do 
     describe '.get_all_recipes' do 
-      it 'returns all the recipes for a given country' do
+      it 'returns all the recipes for a given country', :vcr do
         country = 'Spain'
         recipes = RecipeFacade.get_all_recipes(country)
 

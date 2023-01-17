@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe AirPollutionService do 
-  it 'returns air quality from given country' do 
+  it 'returns air quality from given country', :vcr do 
     latlong = CountryFacade.search_country_lat_long("India")
     aqi = AirPollutionService.air_quality_for_country(latlong[0], latlong[1])
     expect(aqi).to be_a(Hash)

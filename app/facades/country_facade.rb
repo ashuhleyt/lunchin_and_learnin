@@ -3,7 +3,6 @@ class CountryFacade
     result = CountryService.get_countries
     result.map do |country|
       country[:name][:common] 
-      # require 'pry'; binding.pry
     end
   end
 
@@ -17,7 +16,6 @@ class CountryFacade
 
   def self.search_country_lat_long(search_country)
     result = CountryService.get_countries
-    # require 'pry'; binding.pry
     coords = result.find do |country|
       country[:name][:common] == search_country
     end

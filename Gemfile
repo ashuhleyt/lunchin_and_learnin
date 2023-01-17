@@ -41,12 +41,12 @@ group :development, :test do
   gem 'pry'
   gem 'capybara'
   gem 'shoulda-matchers', '~> 5.0'
+  gem 'webmock'
+  gem 'vcr'
 end
 
 group :test do
   gem 'simplecov'
-  gem 'vcr'
-  gem 'webmock'
 end
 
 group :development do

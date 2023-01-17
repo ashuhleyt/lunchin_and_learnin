@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'YouTube API' do 
-  it 'returns videos based on country given' do 
+  it 'returns videos based on country given', :vcr do 
     country = 'Germany'
     get "/api/v1/learning_resources?country=#{country}"
 

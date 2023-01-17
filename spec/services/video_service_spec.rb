@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe VideoService do 
-  it 'returns helpful videos for given country' do 
+  it 'returns helpful videos for given country', :vcr do 
     country = 'Spain'
     videos = VideoService.retrieve_videos(country)
     expect(videos).to be_a(Hash)

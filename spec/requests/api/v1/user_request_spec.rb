@@ -13,7 +13,8 @@ RSpec.describe 'User endpoint' do
     new_user = JSON.parse(response.body, symbolize_names: true) 
     
     expect(response).to be_successful
-
+    expect(response).to have_http_status(201)
+    
     expect(new_user).to be_a(Hash)
     expect(new_user.count).to eq(1)
     expect(new_user).to have_key(:data)

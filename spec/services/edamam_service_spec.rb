@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe EdamamService do 
-  it 'returns data from a specific country' do 
+  it 'returns data from a specific country', :vcr do 
     country = 'Spain'
     recipes = EdamamService.get_recipes_by_country(country)
     expect(recipes).to be_a(Hash)

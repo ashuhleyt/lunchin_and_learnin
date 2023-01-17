@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe 'Recipes API' do 
+RSpec.describe 'Recipes API', :vcr do 
   it 'sends list of recipes for a given country' do 
     country = 'Spain'
     get "/api/v1/recipes?country=#{country}"
