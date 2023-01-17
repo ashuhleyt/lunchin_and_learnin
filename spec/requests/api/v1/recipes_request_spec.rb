@@ -7,6 +7,7 @@ RSpec.describe 'Recipes API' do
 
     recipes = JSON.parse(response.body, symbolize_names: true)
     expect(response).to be_successful
+
     expect(recipes[:data]).to be_an(Array)
     recipes[:data].each do |recipe|
       expect(recipe).to have_key(:id)

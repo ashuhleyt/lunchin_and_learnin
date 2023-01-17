@@ -6,6 +6,7 @@ class AirPollutionService
   end
 
   def self.air_quality_for_country(lat, long)
+    
     response = conn.get("/data/2.5/air_pollution?lat=#{lat}&lon=#{long}")
 
     parse(response)
