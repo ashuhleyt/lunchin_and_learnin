@@ -12,4 +12,11 @@ class ErrorSerializer
       "error": 'INVALID API KEY'
     }
   end
+
+  def self.favorite_not_found
+    {
+      "message": 'No Favorites To Be Found',
+      "error": 'INVALID API KEY'
+    }
+  end
 end

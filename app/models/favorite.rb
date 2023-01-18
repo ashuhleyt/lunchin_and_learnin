@@ -6,3 +6,4 @@ class Favorite < ApplicationRecord
   validates :recipe_title, presence: true
   validates :user_id, presence: true
 end
+
