@@ -1,6 +1,6 @@
 
 
-<h1 align="center"> :fish_cake: :book: Lunchin & Learnin! :book: :fish_cake: </h1>
+<h1 align="center"> :fish_cake: :book: Lunch & Learn :book: :fish_cake: </h1>
 <br>
 <div align="center">
   <img src="https://media1.giphy.com/media/2sYDUClnmEajIPSIwi/giphy.gif?cid=790b76116b30e61f86490dde7d386ceaaebb99c3012182bc&rid=giphy.gif&ct=g" width="300" height="300"/>
