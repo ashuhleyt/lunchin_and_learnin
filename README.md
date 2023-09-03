@@ -7,7 +7,8 @@
 </div>
 <center>
 <br>
-This app was designed as a way for a user to get new recipes, and acquire information about the country where the recipe came from. 
+This app was designed as a way for a user to search for cuisines by country, and provide opportunity to learn more about that countries culture. This app will allow users to search for recipes by country, favorite recipes, and learn more about a particular country.
+Your team is working in a service-oriented architecture. The front-end will communicate with your back-end through an API. Your job is to expose that API that satisfies the front-end team’s requirements.
 <br>
 <br>
 
