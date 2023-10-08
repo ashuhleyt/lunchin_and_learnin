@@ -57,7 +57,6 @@ Obtain your own API keys from: <br>
     - <a href="https://developer.edamam.com/edamam-recipe-api">Edamam Recipe Search API</a><br> 
     - <a href="https://developers.google.com/youtube/v3/getting-started">YouTube API</a><br>
     - <a href="https://unsplash.com/documentation">Unsplash API</a><br>
-    - <a href="https://unsplash.com/documentation">Unsplash API</a><br>
     
 And store them respective in your application.yml file: <br>
 
